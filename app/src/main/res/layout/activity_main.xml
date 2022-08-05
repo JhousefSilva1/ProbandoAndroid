@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:padding="50dp"
     android:background="#8BC34A"
     >
 
@@ -17,8 +18,12 @@
         android:backgroundTint="#673AB7"
         android:padding="20dp"
         android:layout_gravity="center_horizontal"
-        android:background="#FF5722"
         />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Space>
 
     <Button
         android:layout_width="wrap_content"
@@ -34,6 +39,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="3"
+
         >
         <Button
             android:layout_width="wrap_content"
